@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo '*********BUILD STEO STARTED!!!*********'
                 sh''
-                sh"PYTHON3,7 src/calculator.py"
+                sh"python3.7 calculator.py"
                 echo '****************************************'
             }
         }
